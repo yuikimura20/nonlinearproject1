@@ -1,0 +1,31 @@
+body {
+    background-color: rgb(14, 42, 75);
+    font-style: EB garamond;
+    font-style: italic;
+    font-size: 5em;
+    opacity: 100%;
+    color: antiquewhite;
+    text-align: center;
+
+
+        display: flex;
+    justify-content: center; /* Horizontal center */
+    align-items: center;     /* Vertical center */
+    height: 100vh;           /* Full viewport height */
+    margin: 0;
+}
+
+
+a {
+  text-decoration: none;
+}
+    
+.yolo {
+        font-style: EB garamond;
+    font-style: italic;
+    font-size: 30%;
+    opacity: 100%;
+    color: antiquewhite;
+    text-align: center;
+
+}

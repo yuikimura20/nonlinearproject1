@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="starmaze.css">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Ballet:opsz@16..72&family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Ingrid+Darling&family=Monsieur+La+Doulaise&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Ballet:opsz@16..72&family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Ingrid+Darling&family=Monsieur+La+Doulaise&display=swap" rel="stylesheet">
+</head>
+<body>
+
+
+<a href="http://127.0.0.1:3000/THIRD%20Page/third.html">
+<p class="yolo">⋆˙⟡</p>
+</a>
+
+
+<div id="clickable-area" style="padding: 20px; border: px solid black; cursor: pointer;">
+  ✮
+</div>
+
+<!-- The paragraph where the new text will appear -->
+<p id="text-display"></p>
+
+<script>
+  // 1. Store the different texts in a JavaScript array
+  const texts = [
+    "I thought of a maze of mazes, of a sinuous, ever growing maze",
+    "which would take in both past and future and would somehow involve the stars.",
+    "Lost in these imaginary illusions I forgot my destiny - that of the hunted.",
+    "For an undetermined period of time I felt myself cut off from the world, an abstract spectator"
+  ];
+
+  // 2. Initialize a counter for the current text index
+  let index = 0;
+
+  // 3. Get references to the HTML elements
+  const clickableArea = document.getElementById("clickable-area");
+  const textDisplay = document.getElementById("text-display");
+
+  // 4. Define the function that changes the text
+  function changeText() {
+    // Set the text content of the display area to the current text in the array
+    textDisplay.textContent = texts[index];
+
+    // Increment the index
+    index++;
+
+    // Reset the index to 0 if it exceeds the array length (makes it cycle)
+    if (index >= texts.length) {
+      index = 0;
+    }
+  }
+
+  // 5. Add a click event listener to the clickable area
+  clickableArea.addEventListener("click", changeText);
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>

@@ -1,0 +1,37 @@
+body {
+    background-color: rgb(233, 215, 191);
+
+    display: flex;
+    justify-content: center; /* Horizontal center */
+    align-items: center;     /* Vertical center */
+    height: 100vh;           /* Full viewport height */
+    margin: 0;
+
+}
+
+
+p {
+
+
+    color: rgb(38, 64, 35);
+    font-size: 1em;
+    opacity: 80%;
+    font-family: EB Garamond;
+    font-style: italic;
+    padding-right: 5.5em;
+    padding-left: 5.5em
+
+}
+
+
+.grow {
+    /* Initial state (original size) */
+    font-size: 20px; /* Set your desired base font size */
+    transition: transform 0.3s ease-in-out; /* Smooth animation over 0.3 seconds */
+    display: inline-block; /* Required for transform to work correctly on inline elements like text */
+}
+
+.grow:hover {
+    /* State on hover (120% of the original size) */
+    transform: scale(1.2);
+}

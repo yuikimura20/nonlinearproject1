@@ -1,0 +1,110 @@
+body {
+        background-color: rgb(82, 109, 145);
+    font-style: "Noto Serif", serif;
+    font-style: italic;
+    font-size: 1.5em;
+    opacity: 100%;
+    color: antiquewhite;
+    text-align: center;
+    padding-bottom: 3em;
+
+
+}
+
+a {
+  text-decoration: none;
+}
+
+
+.yolo {
+        font-style: "Noto Serif", serif;
+    font-style: italic;
+    font-size: 6em;
+    opacity: 100%;
+    color: antiquewhite;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+.fade-container1 {
+     transition: opacity 0.5s ease-in-out, color 0.5s ease-in-out;
+    color: antiquewhite
+    /* Smoothly transition the opacity and color properties over 0.5 seconds */
+    
+}
+
+.fade-container1:hover {
+    opacity: 0; /* Makes the text completely transparent when hovered */
+    color: transparent; /* Optional: also fades the color itself */
+}
+
+
+
+.fade-container2 {
+    transition: opacity 0.5s ease-in-out, color 0.5s ease-in-out;
+    color: antiquewhite
+    /* Smoothly transition the opacity and color properties over 0.5 seconds */
+    
+}
+
+.fade-container2:hover {
+    opacity: 0; /* Makes the text completely transparent when hovered */
+    color: transparent; /* Optional: also fades the color itself */
+}
+
+.fade-container3 {
+    transition: opacity 0.5s ease-in-out, color 0.5s ease-in-out;
+    color: antiquewhite
+    /* Smoothly transition the opacity and color properties over 0.5 seconds */
+    
+}
+
+.fade-container3:hover {
+    opacity: 0; /* Makes the text completely transparent when hovered */
+    color: transparent; /* Optional: also fades the color itself */
+}
+
+.fade-container4 {
+    transition: opacity 0.5s ease-in-out, color 0.5s ease-in-out;
+    color: antiquewhite
+    /* Smoothly transition the opacity and color properties over 0.5 seconds */
+    
+}
+
+.fade-container4:hover {
+    opacity: 0; /* Makes the text completely transparent when hovered */
+    color: transparent; /* Optional: also fades the color itself */
+}
+
+
+.fade-container5 {
+    transition: opacity 0.5s ease-in-out, color 0.5s ease-in-out;
+    color: antiquewhite
+    /* Smoothly transition the opacity and color properties over 0.5 seconds */
+    
+}
+
+.fade-container5:hover {
+    opacity: 0; /* Makes the text completely transparent when hovered */
+    color: transparent; /* Optional: also fades the color itself */
+}
+
+
+
+.fade-container6 {
+    transition: opacity 0.5s ease-in-out, color 0.5s ease-in-out;
+    color: antiquewhite
+    /* Smoothly transition the opacity and color properties over 0.5 seconds */
+    
+}
+
+.fade-container6:hover {
+    opacity: 0; /* Makes the text completely transparent when hovered */
+    color: transparent; /* Optional: also fades the color itself */
+}

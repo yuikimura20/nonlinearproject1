@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="outtathelabyrinth.css">
+    <title>Document</title>
+</head>
+<body>
+    
+
+
+
+
+ <div id="typewriter"></div><span id="cursor">|</span>
+
+  <script>
+    const text = `Meditating thus I arrived at a high, rusty iron gate. and made it out of the labyrinth
+
+
+   `;
+
+    let index = 0;
+
+    function type() {
+      if (index < text.length) {
+        document.getElementById("typewriter").textContent += text[index];
+
+        // Check if the character is a sentence-ending punctuation
+        const char = text[index];
+        const isSentenceEnd = char === "." || char === "!" || char === "?";
+
+        index++;
+
+        // Normal typing speed
+        let delay = 90;
+
+        // Add pause after sentences
+        if (isSentenceEnd) {
+          delay = 400; // pause for 0.4s after a sentence
+        }
+
+        setTimeout(type, delay);
+      }
+    }
+
+    type();
+  </script>
+
+</div>
+
+
+
+
+
+</body>
+</html>

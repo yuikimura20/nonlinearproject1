@@ -1,0 +1,50 @@
+body {
+    background-color: rgb(32, 87, 107);
+
+
+        display: flex;
+    justify-content: center; /* Horizontal center */
+    align-items: center;     /* Vertical center */
+    height: 100vh;           /* Full viewport height */
+    margin: 0;
+}
+
+
+
+
+
+p {
+    color: rgb(242, 230, 211);
+    
+    opacity: 100%;
+    font-size: 2em;
+    font-family: EB Garamond;
+    font-style: italic;
+    padding-right: 3em;
+    padding-left: 3em
+    
+}
+
+@keyframes bounce {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-60px); /* Adjust distance for higher/lower bounce */
+  }
+}
+
+p.bouncing-text1 {
+  animation: bounce 5s infinite ease-in-out;
+  display: inline-block; /* Required for transforms on some elements */
+}
+
+p.bouncing-text2 {
+  animation: bounce 7s infinite ease-in-out;
+  display: inline-block; /* Required for transforms on some elements */
+}
+
+p.bouncing-text3 {
+  animation: bounce 9s infinite ease-in-out;
+  display: inline-block; /* Required for transforms on some elements */
+}

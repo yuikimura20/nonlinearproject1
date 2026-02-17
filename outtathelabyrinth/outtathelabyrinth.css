@@ -1,0 +1,26 @@
+body {
+
+  
+  background-image: url("Images/hazy.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+
+    display: flex;
+    justify-content: center; /* Horizontal center */
+    align-items: center;     /* Vertical center */
+    height: 100vh;           /* Full viewport height */
+    margin: 0;
+
+
+
+        color: rgb(242, 230, 211);
+    opacity: 80%;
+    font-family: EB Garamond;
+    font-style: italic;
+    padding-right: 5.5em;
+    padding-left: 5.5em
+
+}
+
+
